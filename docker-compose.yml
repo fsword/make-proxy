@@ -1,0 +1,10 @@
+version: 2
+
+services:
+  mproxy:
+    image: fsword/make-proxy
+    volumes:
+      - ./app.config:/app/app.config
+    ports:
+      - 7070:7070
+
