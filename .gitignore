@@ -17,3 +17,5 @@ _build
 *.iml
 *.lock
 app.config
+app.config-*
+
